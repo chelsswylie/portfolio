@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        {/* This will change to the page eventually */}
         <GridContainer />
         {/* Random commits */}
         {/* <img src={logo} className="App-logo" alt="logo" />
