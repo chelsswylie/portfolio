@@ -1,11 +1,15 @@
 import React from "react";
 import {
-  // CompanyName,
-  // JobTitle,
-  // JobDates,
+  CompanyName,
+  JobTitle,
+  JobDates,
   ContentDescription,
   ExpContainer,
+  UL,
+  LI,
+  Button,
 } from "./Experience.styles";
+import "./Experience.css";
 
 import Angular from "../../../assets/Angular.png";
 import CSS from "../../../assets/CSS.jpg";
@@ -16,45 +20,77 @@ import react from "../../../assets/react.png";
 import typescript from "../../../assets/typescript.png";
 
 export default function ExperienceContainer() {
+  let liEls = document.querySelectorAll("ul li");
+  let index = 0;
+  window.show = function (increase) {
+    index = index + increase;
+    index = Math.min(Math.max(index, 0), liEls.length - 1);
+    liEls[index].scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <ExpContainer>
       <div className="grid-item">
         <span>
-          <div>Nexient</div>
-          <div>Software Engineer</div>
-          <div>November 2020 - present</div>
+          <CompanyName>Nexient</CompanyName>
+          <JobTitle>Software Engineer</JobTitle>
+          <JobDates>November 2020 - present</JobDates>
         </span>
 
         <ContentDescription>
-          <ul>
-            <img class="img1" src={Angular} style={{ height: 25, width: 25 }} />
-            <img class="img2" src={CSS} style={{ height: 25, width: 25 }} />
-            <img class="img3" src={git} style={{ height: 25, width: 25 }} />
-            <img class="img4" src={github} style={{ height: 25, width: 25 }} />
-            <img
-              class="img5"
-              src={javascript}
-              style={{ height: 25, width: 25 }}
-            />
-            <img class="img6" src={react} style={{ height: 25, width: 25 }} />
-            <img
-              class="img7"
-              src={typescript}
-              style={{ height: 25, width: 25 }}
-            />
-          </ul>
+          <UL>
+            <Button onclick="show(-1)">&lt;</Button>
+            <LI>
+              <img
+                class="img1"
+                src={Angular}
+                style={{ height: 25, width: 25 }}
+              />
+            </LI>
+            <LI>
+              <img class="img2" src={CSS} style={{ height: 25, width: 25 }} />
+            </LI>
+            <LI>
+              <img class="img3" src={git} style={{ height: 25, width: 25 }} />
+            </LI>
+            <LI>
+              <img
+                class="img4"
+                src={github}
+                style={{ height: 25, width: 25 }}
+              />
+            </LI>
+            <LI>
+              <img
+                class="img5"
+                src={javascript}
+                style={{ height: 25, width: 25 }}
+              />
+            </LI>
+            <LI>
+              <img class="img6" src={react} style={{ height: 25, width: 25 }} />
+            </LI>
+            <LI>
+              <img
+                class="img7"
+                src={typescript}
+                style={{ height: 25, width: 25 }}
+              />
+            </LI>
+            <Button onclick="show(+1)">&gt;</Button>
+          </UL>
         </ContentDescription>
       </div>
       <div className="grid-item">
         <span>
-          <div>Grand Circus</div>
-          <div>Instructor and Teaching Assistant</div>
-          <div>October 2020 - May 2022</div>
+          <CompanyName>Grand Circus</CompanyName>
+          <JobTitle>Instructor and Teaching Assistant</JobTitle>
+          <JobDates>October 2020 - May 2022</JobDates>
         </span>
 
         <ContentDescription>
           <ul>
-            <img class="img1" src={Angular} style={{ height: 25, width: 25 }} />
+            {/* <img class="img1" src={Angular} style={{ height: 25, width: 25 }} />
             <img class="img2" src={CSS} style={{ height: 25, width: 25 }} />
             <img class="img3" src={git} style={{ height: 25, width: 25 }} />
             <img class="img4" src={github} style={{ height: 25, width: 25 }} />
@@ -68,49 +104,21 @@ export default function ExperienceContainer() {
               class="img7"
               src={typescript}
               style={{ height: 25, width: 25 }}
-            />
-          </ul>
-        </ContentDescription>
-      </div>
-
-      <div className="grid-item">
-        <span>
-          <div>Informa Intelligence</div>
-          <div>Sales Operations Coordinator</div>
-          <div>Client Success Manager</div>
-          <div>June 2017 - November 2020</div>
-        </span>
-
-        <ContentDescription>
-          <ul>
-            <img class="img1" src={Angular} style={{ height: 25, width: 25 }} />
-            <img class="img2" src={CSS} style={{ height: 25, width: 25 }} />
-            <img class="img3" src={git} style={{ height: 25, width: 25 }} />
-            <img class="img4" src={github} style={{ height: 25, width: 25 }} />
-            <img
-              class="img5"
-              src={javascript}
-              style={{ height: 25, width: 25 }}
-            />
-            <img class="img6" src={react} style={{ height: 25, width: 25 }} />
-            <img
-              class="img7"
-              src={typescript}
-              style={{ height: 25, width: 25 }}
-            />
+            /> */}
           </ul>
         </ContentDescription>
       </div>
 
       <div className="grid-item">
         <span>
-          <div>Dearborn School of Music</div>
-          <div>Private Music Instructor</div>
-          <div>February 2018 - March 2020</div>
+          <CompanyName>Informa Intelligence</CompanyName>
+          <JobTitle>Sales Operations Coordinator</JobTitle>
+          <JobTitle>Client Success Manager</JobTitle>
+          <JobDates>June 2017 - November 2020</JobDates>
         </span>
 
         <ContentDescription>
-          <ul>
+          {/* <ul>
             <img class="img1" src={Angular} style={{ height: 25, width: 25 }} />
             <img class="img2" src={CSS} style={{ height: 25, width: 25 }} />
             <img class="img3" src={git} style={{ height: 25, width: 25 }} />
@@ -126,7 +134,35 @@ export default function ExperienceContainer() {
               src={typescript}
               style={{ height: 25, width: 25 }}
             />
-          </ul>
+          </ul> */}
+        </ContentDescription>
+      </div>
+
+      <div className="grid-item">
+        <span>
+          <CompanyName>Dearborn School of Music</CompanyName>
+          <JobTitle>Private Music Instructor</JobTitle>
+          <JobDates>February 2018 - March 2020</JobDates>
+        </span>
+
+        <ContentDescription>
+          {/* <ul>
+            <img class="img1" src={Angular} style={{ height: 25, width: 25 }} />
+            <img class="img2" src={CSS} style={{ height: 25, width: 25 }} />
+            <img class="img3" src={git} style={{ height: 25, width: 25 }} />
+            <img class="img4" src={github} style={{ height: 25, width: 25 }} />
+            <img
+              class="img5"
+              src={javascript}
+              style={{ height: 25, width: 25 }}
+            />
+            <img class="img6" src={react} style={{ height: 25, width: 25 }} />
+            <img
+              class="img7"
+              src={typescript}
+              style={{ height: 25, width: 25 }}
+            />
+          </ul> */}
         </ContentDescription>
       </div>
     </ExpContainer>
