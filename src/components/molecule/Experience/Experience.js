@@ -30,7 +30,11 @@ export default function ExperienceContainer() {
           <JobDates>November 2020 - present</JobDates>
         </GridItem>
         <GridItem>
-          <ContentDescription>Text here</ContentDescription>
+          <ContentDescription>
+            Developed code in an Agile environment for several clients at
+            Nexient, including: The Home Depot, Pacific Gas & Electric, and
+            First Republic Bank
+          </ContentDescription>
         </GridItem>
       </GridContainer>
 
@@ -43,7 +47,10 @@ export default function ExperienceContainer() {
           <JobDates>October 2020 - May 2022</JobDates>
         </GridItem>
         <GridItem>
-          <ContentDescription>Text here</ContentDescription>
+          <ContentDescription>
+            Taught several classes at Grand Circus, including Intro to Coding
+            and Intro to HTML and CSS.
+          </ContentDescription>
         </GridItem>
       </GridContainer>
 
@@ -51,13 +58,35 @@ export default function ExperienceContainer() {
         <GridItem>
           <CompanyName>Informa Intelligence</CompanyName>
           <JobTitle>Sales Operations Specialist</JobTitle>
+        </GridItem>
+        <GridItem>
+          <JobDates>March 2020 - November 2020</JobDates>
+        </GridItem>
+        <GridItem>
+          <ContentDescription>
+            Helped to support sales initiatives within Informa, including but
+            not limited to: Salesforce assistance, provisioning access, and
+            working to ensure divisional processes are being adhered to when
+            approving opportunities.
+          </ContentDescription>
+        </GridItem>
+      </GridContainer>
+
+      <GridContainer>
+        <GridItem>
+          <CompanyName>Informa Intelligence</CompanyName>
           <JobTitle>Client Success Manager</JobTitle>
         </GridItem>
         <GridItem>
-          <JobDates>June 2017 - November 2020</JobDates>
+          <JobDates>June 2017 - March 2020</JobDates>
         </GridItem>
         <GridItem>
-          <ContentDescription>Text here</ContentDescription>
+          <ContentDescription>
+            Helped to support Wards clients with purchased products and their
+            data needs. Tasks ranged from providing data, supporting marketing
+            needs, updating internal business processes, and regularly
+            communicating with clients to ensure customer satisfaction.
+          </ContentDescription>
         </GridItem>
       </GridContainer>
 
@@ -70,7 +99,13 @@ export default function ExperienceContainer() {
           <JobDates>February 2018 - March 2020</JobDates>
         </GridItem>
         <GridItem>
-          <ContentDescription>Text here</ContentDescription>
+          <ContentDescription>
+            Worked part-time as a Music Educator, teaching beginner and
+            intermediate students instruments including the flute, guitar, and
+            ukulele. Topics covered during lessons include: music theory
+            practice, how to read and count notes, basic instrument maintenance,
+            and dexterity exercises.
+          </ContentDescription>
         </GridItem>
       </GridContainer>
     </ExpContainer>

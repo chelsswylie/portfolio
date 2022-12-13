@@ -40,24 +40,6 @@ export default function Navigation() {
             Resume
           </a>
         </ListItem>
-        <CallToAction>
-          Let's connect!
-          <ContactInfo>
-            <img
-              class="img1"
-              src={emailIcon}
-              style={{ height: 15, width: 15 }}
-            />
-            : <a href="shelikestocode@gmail.com">shelikestocode@gmail.com</a>
-            <br />
-            <img
-              class="img2"
-              src={linkedinIcon}
-              style={{ height: 15, width: 15 }}
-            />
-            : <a href="https://www.linkedin.com/in/chelsswylie/">LinkedIn</a>
-          </ContactInfo>
-        </CallToAction>
       </UnorderedList>
     </NavBar>
   );

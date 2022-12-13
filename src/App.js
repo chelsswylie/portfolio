@@ -4,6 +4,8 @@ import ExperienceContainer from "./components/molecule/Experience/Experience";
 import EducationContainer from "./components/molecule/Education/Education";
 import PortfolioContainer from "./components/molecule/Portfolio/Portfolio";
 import Navigation from "./components/molecule/Navigation/Navigation";
+import Footer from "./components/molecule/Footer/Footer";
+
 import React from "react";
 import { MainContainer } from "./App.styles";
 
@@ -19,6 +21,7 @@ function App() {
           <Route path="Portfolio" element={<PortfolioContainer />} />
         </Routes>
       </MainContainer>
+      <Footer />
     </div>
   );
 }

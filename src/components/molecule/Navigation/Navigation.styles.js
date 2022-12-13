@@ -16,18 +16,11 @@ export const UnorderedList = styled.ul`
 export const ListItem = styled.li`
   display: block;
   padding: 5px;
+  color: green;
   &:hover {
-    color: teal;
+    background-color: #d8f9ff;
   }
   &:active {
-    color: purple;
+    background-color: #d3d3d3;
   }
-`;
-
-export const CallToAction = styled.div`
-  margin-top: 20%;
-`;
-
-export const ContactInfo = styled.div`
-  margin-top: 15%;
 `;
