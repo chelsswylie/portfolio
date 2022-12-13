@@ -1,11 +1,15 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-// import HeaderContainer from "./components/molecule/Header/Header";
-// import ExperienceContainer from "./components/molecule/Experience/Experience";
-// import EducationContainer from "./components/molecule/Education/Education";
-// import PortfolioContainer from "./components/molecule/Portfolio/Portfolio";
-import { UnorderedList, NavBar, ListItem } from "./Navigation.styles";
+import {
+  CallToAction,
+  UnorderedList,
+  NavBar,
+  ListItem,
+  ContactInfo,
+} from "./Navigation.styles";
 import Resume from "../../../assets/ChelseaWylieResume.pdf";
+import emailIcon from "../../../assets/emailicon.png";
+import linkedinIcon from "../../../assets/linkedinIcon.png";
 
 export default function Navigation() {
   return (
@@ -33,9 +37,27 @@ export default function Navigation() {
         </ListItem>
         <ListItem>
           <a href={Resume} download>
-            Download
+            Resume
           </a>
         </ListItem>
+        <CallToAction>
+          Let's connect!
+          <ContactInfo>
+            <img
+              class="img1"
+              src={emailIcon}
+              style={{ height: 15, width: 15 }}
+            />
+            : <a href="shelikestocode@gmail.com">shelikestocode@gmail.com</a>
+            <br />
+            <img
+              class="img2"
+              src={linkedinIcon}
+              style={{ height: 15, width: 15 }}
+            />
+            : <a href="https://www.linkedin.com/in/chelsswylie/">LinkedIn</a>
+          </ContactInfo>
+        </CallToAction>
       </UnorderedList>
     </NavBar>
   );

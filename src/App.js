@@ -10,8 +10,8 @@ import { MainContainer } from "./App.styles";
 function App() {
   return (
     <div className="App" id="AppMain">
+      <Navigation />
       <MainContainer>
-        <Navigation />
         <Routes>
           <Route path="/" element={<HeaderContainer />} />
           <Route path="Experience" element={<ExperienceContainer />} />

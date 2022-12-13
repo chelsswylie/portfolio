@@ -5,7 +5,6 @@ import {
   Title,
   ContentDescription,
 } from "./Header.styles";
-import LetsConnect from "../../atom/Holler/Holler";
 
 export default function HeaderContainer() {
   return (
@@ -14,7 +13,6 @@ export default function HeaderContainer() {
         <Title>Hi, I'm Chelsea Wylie</Title>
         <ContentDescription>Software Engineer | Musician </ContentDescription>
         <GreenLine />
-        <LetsConnect />
       </HeaderStyle>
     </>
   );
