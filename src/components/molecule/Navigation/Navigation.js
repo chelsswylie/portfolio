@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 // import EducationContainer from "./components/molecule/Education/Education";
 // import PortfolioContainer from "./components/molecule/Portfolio/Portfolio";
 import { UnorderedList, NavBar, ListItem } from "./Navigation.styles";
+import Resume from "../../../assets/ChelseaWylieResume.pdf";
 
 export default function Navigation() {
   return (
@@ -29,6 +30,11 @@ export default function Navigation() {
           <NavLink exact to="/Portfolio">
             Portfolio
           </NavLink>
+        </ListItem>
+        <ListItem>
+          <a href={Resume} download>
+            Download
+          </a>
         </ListItem>
       </UnorderedList>
     </NavBar>
