@@ -1,28 +1,36 @@
 import styled from "styled-components";
 
-export const SchoolName = styled.h2`
-  width: 100%;
+export const CompanyName = styled.h4`
   text-align: left;
 `;
-export const AchievementReceived = styled.h4`
-  width: 100%;
-  text-align: right;
+
+export const JobTitle = styled.div`
+  width: 50%;
+  text-align: left;
+  font-weight: 200;
 `;
 
-export const SchoolDates = styled.h5`
-  width: 100%;
+export const JobDates = styled.h5`
+  font-weight: 500;
   text-align: right;
 `;
 
 export const ContentDescription = styled.div`
   width: 100%;
-  text-align: center;
+  text-align: left;
 `;
 
-export const EduContainer = styled.div`
+export const ExpContainer = styled.div`
   height: 100vh;
 `;
 
-export const GridItem = styled.div`
-  height: 50vh;
+export const GridContainer = styled.div`
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5px;
+  padding: 5px;
+`;
+
+export const GridItem = styled.span`
+  text-align: center;
 `;
