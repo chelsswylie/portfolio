@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
-import HeaderContainer from "./components/molecule/Header/Header";
-import ExperienceContainer from "./components/molecule/Experience/Experience";
-import EducationContainer from "./components/molecule/Education/Education";
-import PortfolioContainer from "./components/molecule/Portfolio/Portfolio";
-import Navigation from "./components/molecule/Navigation/Navigation";
-import Footer from "./components/molecule/Footer/Footer";
+import HeaderContainer from "./components/organism/Header/Header";
+import ExperienceContainer from "./components/organism/Experience/Experience";
+import EducationContainer from "./components/organism/Education/Education";
+import PortfolioContainer from "./components/organism/Portfolio/Portfolio";
+import Navigation from "./components/organism/Navigation/Navigation";
+import Footer from "./components/organism/Footer/Footer";
 
 import React from "react";
 import { MainContainer } from "./App.styles";

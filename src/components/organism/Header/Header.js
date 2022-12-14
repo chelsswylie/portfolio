@@ -6,6 +6,8 @@ import {
   ContentDescription,
 } from "./Header.styles";
 
+import ImageCarousel from "../../atom/Image-carousel";
+
 export default function HeaderContainer() {
   return (
     <>
@@ -13,6 +15,7 @@ export default function HeaderContainer() {
         <Title>Hi, I'm Chelsea Wylie</Title>
         <ContentDescription>Software Engineer | Musician </ContentDescription>
         <GreenLine />
+        <ImageCarousel />
       </HeaderStyle>
     </>
   );

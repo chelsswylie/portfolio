@@ -10,14 +10,6 @@ import {
   JobTitle,
 } from "./Experience.styles";
 
-import Angular from "../../../assets/Angular.png";
-import CSS from "../../../assets/CSS.jpg";
-import git from "../../../assets/git.png";
-import github from "../../../assets/github.png";
-import javascript from "../../../assets/JS.png";
-import react from "../../../assets/react.png";
-import typescript from "../../../assets/typescript.png";
-
 export default function ExperienceContainer() {
   return (
     <ExpContainer>
