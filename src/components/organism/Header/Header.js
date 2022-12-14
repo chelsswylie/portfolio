@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import {
-  GreenLine,
+  Spacer,
   HeaderStyle,
   Title,
   ContentDescription,
 } from "./Header.styles";
 
-import ImageCarousel from "../../atom/Image-carousel";
+import TechStack from "../../atom/TechStack/TechStack";
 
 export default function HeaderContainer() {
   return (
@@ -14,8 +14,8 @@ export default function HeaderContainer() {
       <HeaderStyle>
         <Title>Hi, I'm Chelsea Wylie</Title>
         <ContentDescription>Software Engineer | Musician </ContentDescription>
-        <GreenLine />
-        <ImageCarousel />
+        <Spacer />
+        <TechStack />
       </HeaderStyle>
     </>
   );

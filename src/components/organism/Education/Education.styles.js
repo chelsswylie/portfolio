@@ -21,7 +21,7 @@ export const ContentDescription = styled.div`
 `;
 
 export const ExpContainer = styled.div`
-  height: 100vh;
+  height: 80vh;
 `;
 
 export const GridContainer = styled.div`
@@ -33,4 +33,8 @@ export const GridContainer = styled.div`
 
 export const GridItem = styled.span`
   text-align: center;
+`;
+
+export const UnorderedList = styled.ul`
+  list-style-type: none;
 `;

@@ -19,31 +19,39 @@ export default function PortfolioContainer() {
           </CompanyName>
 
           <JobDates>
-            <a href="https://github.com/chelsswylie/dfth2020">
-              Link to source code
-            </a>
+            As a team of two husband and wife duos, we designed and developed an
+            open-source fullstack project using Java, Springboot, Angular, and
+            PostgreSQL to address the problem statement provided by the company
+            Detroit Denim.
           </JobDates>
         </GridItem>
         <GridItem>
-          <ContentDescription>Text here</ContentDescription>
+          <ContentDescription>
+            <a href="https://github.com/chelsswylie/dfth2020">
+              Link to source code
+            </a>
+          </ContentDescription>
         </GridItem>
       </GridContainer>
       <GridContainer>
         <GridItem>
           <CompanyName>The Culture X-Change</CompanyName>
-          <JobTitle>
-            <a href="https://the-culture-exchange.web.app/home">
-              Link to project
-            </a>
-          </JobTitle>
+          <JobTitle>LEARN | SHARE | BUILD</JobTitle>
           <JobDates>
-            <a href="https://github.com/chelsswylie/FINALPROJECT-CultureXchange">
-              Link to source code
-            </a>
+            As our final capstone project, I joined 2 classmates to build an
+            application to help spread knowledge about some cultures world wide!
           </JobDates>
         </GridItem>
         <GridItem>
-          <ContentDescription>Text here</ContentDescription>
+          <ContentDescription>
+            <a href="https://github.com/chelsswylie/FINALPROJECT-CultureXchange">
+              Link to source code
+            </a>{" "}
+            <br />
+            <a href="https://the-culture-exchange.web.app/home">
+              Link to project
+            </a>
+          </ContentDescription>
         </GridItem>
       </GridContainer>
     </ExpContainer>

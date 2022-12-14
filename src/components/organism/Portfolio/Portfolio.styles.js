@@ -7,7 +7,7 @@ export const CompanyName = styled.h4`
 export const JobTitle = styled.div`
   width: 50%;
   text-align: left;
-  font-weight: 200;
+  font-weight: 400;
 `;
 
 export const JobDates = styled.h5`
@@ -22,7 +22,7 @@ export const ContentDescription = styled.h5`
 `;
 
 export const ExpContainer = styled.div`
-  height: 100vh;
+  height: 80vh;
 `;
 
 export const GridContainer = styled.div`

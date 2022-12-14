@@ -5,10 +5,9 @@ export const HeaderStyle = styled.div`
   width: 80vw;
 `;
 
-export const GreenLine = styled.div`
+export const Spacer = styled.div`
   height: 10vh;
   width: 100%;
-  background-color: green;
 `;
 
 export const Title = styled.h1`
