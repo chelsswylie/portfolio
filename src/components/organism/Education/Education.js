@@ -13,6 +13,7 @@ import {
 export default function EducationContainer() {
   return (
     <ExpContainer>
+      <h1>Education</h1>
       <GridContainer>
         <GridItem>
           <CompanyName>Grand Circus</CompanyName>

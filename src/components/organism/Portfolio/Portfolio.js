@@ -36,10 +36,10 @@ export default function PortfolioContainer() {
       <GridContainer>
         <GridItem>
           <CompanyName>The Culture X-Change</CompanyName>
-          <JobTitle>LEARN | SHARE | BUILD</JobTitle>
+          {/* <JobTitle>LEARN | SHARE | BUILD</JobTitle> */}
           <JobDates>
             As our final capstone project, I joined 2 classmates to build an
-            application to help spread knowledge about some cultures world wide!
+            application to help spread knowledge about some global cultures
           </JobDates>
         </GridItem>
         <GridItem>

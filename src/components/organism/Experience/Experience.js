@@ -13,6 +13,7 @@ import {
 export default function ExperienceContainer() {
   return (
     <ExpContainer>
+      <h1>Experience</h1>
       <GridContainer>
         <GridItem>
           <CompanyName>Nexient</CompanyName>
