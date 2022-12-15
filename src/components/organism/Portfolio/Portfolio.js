@@ -12,6 +12,7 @@ import {
 export default function PortfolioContainer() {
   return (
     <ExpContainer>
+      <h1>Portfolio</h1>
       <GridContainer>
         <GridItem>
           <CompanyName>
