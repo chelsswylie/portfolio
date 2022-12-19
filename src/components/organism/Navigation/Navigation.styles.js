@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const NavBar = styled.div`
-  justify-content: center;
+  display: flex;
+  justify-content: flex-start;
 `;
 
 export const UnorderedList = styled.ul`

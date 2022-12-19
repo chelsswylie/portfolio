@@ -8,8 +8,6 @@ import {
   ContactInfo,
 } from "./Navigation.styles";
 import Resume from "../../../assets/ChelseaWylieResume.pdf";
-import emailIcon from "../../../assets/emailicon.png";
-import linkedinIcon from "../../../assets/linkedinIcon.png";
 
 export default function Navigation() {
   return (
