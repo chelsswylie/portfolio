@@ -7,7 +7,7 @@ import {
   ListItem,
   ContactInfo,
 } from "./Navigation.styles";
-import Resume from "../../../assets/Chelsea_Wylie_Resume.pdf";
+import ResumeTwo from "../../../assets/Chelsea_Wylie_Resume.pdf";
 
 export default function Navigation() {
   return (
@@ -34,7 +34,7 @@ export default function Navigation() {
           </NavLink>
         </ListItem>
         <ListItem>
-          <a href={Resume} download>
+          <a href={ResumeTwo} download>
             Resume
           </a>
         </ListItem>
