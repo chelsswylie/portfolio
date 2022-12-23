@@ -34,9 +34,9 @@ export default function Navigation() {
           </NavLink>
         </ListItem>
         <ListItem>
-          {/* <a href={ResumeTwo} download> */}
-          Resume
-          {/* </a> */}
+          <a href={ResumeTwo} download>
+            Resume
+          </a>
         </ListItem>
       </UnorderedList>
     </NavBar>
