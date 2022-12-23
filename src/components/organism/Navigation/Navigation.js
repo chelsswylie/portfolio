@@ -7,7 +7,7 @@ import {
   ListItem,
   ContactInfo,
 } from "./Navigation.styles";
-import ResumeTwo from "../../../assets/Chelsea_Wylie_Resume.pdf";
+import ResumeTwo from "../../../assets/ChelseaWylieResume.pdf";
 
 export default function Navigation() {
   return (
