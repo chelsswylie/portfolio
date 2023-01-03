@@ -7,7 +7,6 @@ import {
   ListItem,
   ContactInfo,
 } from "./Navigation.styles";
-import Resume from "../../../assets/ChelseaWylieResume.pdf";
 
 export default function Navigation() {
   return (
@@ -33,11 +32,14 @@ export default function Navigation() {
             Portfolio
           </NavLink>
         </ListItem>
-        <ListItem>
-          <a href={Resume} download>
+        {/* <ListItem>
+          <a
+            href="https://portfolio-cw-2023.s3.amazonaws.com/ChelseaWylieResume.pdf"
+            download
+          >
             Resume
           </a>
-        </ListItem>
+        </ListItem> */}
       </UnorderedList>
     </NavBar>
   );
