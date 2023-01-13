@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FooterContainer = styled.div`
   justify-content: space-around;
   height: 20vh;
-  width: 100vw;
+  width: 85%;
   position: fixed;
   overflow: auto;
 `;
