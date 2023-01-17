@@ -32,14 +32,14 @@ export default function Navigation() {
             Portfolio
           </NavLink>
         </ListItem>
-        {/* <ListItem>
+        <ListItem>
           <a
             href="https://portfolio-cw-2023.s3.amazonaws.com/ChelseaWylieResume.pdf"
             download
           >
             Resume
           </a>
-        </ListItem> */}
+        </ListItem>
       </UnorderedList>
     </NavBar>
   );
