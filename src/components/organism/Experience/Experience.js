@@ -37,7 +37,7 @@ export default function ExperienceContainer() {
           <JobTitle>Software Engineer</JobTitle>
         </GridItem>
         <GridItem>
-          <JobDates>November 2020 - present</JobDates>
+          <JobDates>November 2020 - February 2023</JobDates>
         </GridItem>
         <GridItem>
           <ContentDescription>
