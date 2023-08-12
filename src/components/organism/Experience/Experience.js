@@ -14,6 +14,23 @@ export default function ExperienceContainer() {
   return (
     <ExpContainer>
       <h1>Experience</h1>
+
+      <GridContainer>
+        <GridItem>
+          <CompanyName>Snap One</CompanyName>
+          <JobTitle>Software Engineer - UI</JobTitle>
+        </GridItem>
+        <GridItem>
+          <JobDates>February 2023 - Present</JobDates>
+        </GridItem>
+        <GridItem>
+          <ContentDescription>
+            Currently working on the Smart Cloud Software team, helping to
+            deliver feature level code for the surveillance and audio team.
+          </ContentDescription>
+        </GridItem>
+      </GridContainer>
+
       <GridContainer>
         <GridItem>
           <CompanyName>Nexient</CompanyName>
