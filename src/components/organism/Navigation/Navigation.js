@@ -34,7 +34,7 @@ export default function Navigation() {
         </ListItem>
         <ListItem>
           <a
-            href="https://portfolio-cw-2023.s3.amazonaws.com/ChelseaWylieResume.pdf"
+            href="https://portfolio-cw-2023.s3.amazonaws.com/CWylieResume.pdf"
             download
           >
             Resume
